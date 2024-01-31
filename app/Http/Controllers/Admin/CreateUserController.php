@@ -14,7 +14,7 @@ class CreateUserController extends Controller
    public function index(){
     return view('Admin.user_list');
    }
-    //getdata from  user model
+    //getdata from  user model,
    public function getData(Request $request){
 
         if ($request->ajax()) {
